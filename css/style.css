@@ -9277,7 +9277,7 @@ textarea.form-control-lg {
       padding: 10px 10px;
       display: inline-block;
       text-decoration: none !important;
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgba(255, 255, 255, 1); }
       .site-nav .site-navigation .site-menu > li > a:hover {
         color: #fff; }
     .site-nav .site-navigation .site-menu > li.active > a {
@@ -10018,6 +10018,10 @@ textarea {
   .post-entry-alt h2 a, .post-entry-alt .h2 a {
     color: #4D4C7D; }
 
+.post-entry-alt p {
+  color: #151515;
+}
+
 .post-entry-alt .excerpt {
   padding-left: 20px;
   padding-right: 20px; }
@@ -10032,13 +10036,13 @@ textarea {
     margin-bottom: 0; }
 
 .post-meta {
-  color: gray;
+  color: black;
   font-size: 13px;
   width: 100%;
   display: block;
   margin-bottom: 20px; }
   .post-meta a {
-    color: #000; }
+    color: darkblue; }
   .post-meta .author-figure img {
     width: 30px;
     border-radius: 50%; }
@@ -10070,7 +10074,7 @@ textarea {
 
 .blog-entries .post-meta {
   font-size: 14px;
-  color: #b3b3b3; }
+  color: black; }
   .blog-entries .post-meta .author img {
     width: 30px;
     border-radius: 50%;
@@ -10244,7 +10248,7 @@ textarea {
 
 .post-entry-sidebar .post-meta, .post-entry-footer .post-meta {
   font-size: 14px;
-  color: #b3b3b3; }
+  color: black; }
 
 .post-entry-sidebar ul, .post-entry-footer ul {
   padding: 0;
@@ -10457,7 +10461,7 @@ textarea {
   padding: 70px 0;
   color: white; }
   .site-footer a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     position: relative;
     display: inline-block; }
     .site-footer a:hover {
@@ -10503,3 +10507,7 @@ textarea {
       .site-footer .social li a:hover {
         background: #fff;
         color: #214252; }
+
+.post-content-body p {
+  color: #151515;
+}

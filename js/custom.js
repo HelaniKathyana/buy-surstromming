@@ -139,5 +139,12 @@
 		selector: '.glightbox'
 	});
 
+	const d = new Date();
+  let year = d.getFullYear();
 
+  // Display the current year in the HTML element with the id "currentYear"
+  var elements = document.getElementsByClassName('currentYear');
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].textContent = year;
+  }
 })()
