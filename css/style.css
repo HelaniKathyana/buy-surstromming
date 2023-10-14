@@ -10074,11 +10074,18 @@ textarea {
 
 .blog-entries .post-meta {
   font-size: 14px;
-  color: black; }
-  .blog-entries .post-meta .author img {
-    width: 30px;
-    border-radius: 50%;
-    display: inline-block; }
+  color: black;
+}
+
+.blog-entries .post-meta .author img {
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.post-entry-footer .post-meta {
+  color: white !important;
+}
 
 .custom-pagination span, .custom-pagination a {
   text-align: center;
