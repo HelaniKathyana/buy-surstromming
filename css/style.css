@@ -10518,3 +10518,11 @@ textarea {
 .post-content-body p {
   color: #151515;
 }
+
+.post-content-body p a{
+  color: darkblue;
+}
+
+.post-content-body p a:hover {
+  color: blue;
+}
